@@ -13,6 +13,7 @@
 		F4908BF027868FE500F06E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4908BEE27868FE500F06E94 /* Main.storyboard */; };
 		F4908BF227868FE800F06E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4908BF127868FE800F06E94 /* Assets.xcassets */; };
 		F4908BF527868FE800F06E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4908BF327868FE800F06E94 /* LaunchScreen.storyboard */; };
+		F4908BFD278A2AE600F06E94 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4908BF127868FE800F06E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4908BF427868FE800F06E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4908BF627868FE900F06E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F4908BE827868FE500F06E94 /* AppDelegate.swift */,
 				F4908BEA27868FE500F06E94 /* SceneDelegate.swift */,
 				F4908BEC27868FE500F06E94 /* ViewController.swift */,
+				F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */,
 				F4908BEE27868FE500F06E94 /* Main.storyboard */,
 				F4908BF127868FE800F06E94 /* Assets.xcassets */,
 				F4908BF327868FE800F06E94 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F4908BED27868FE500F06E94 /* ViewController.swift in Sources */,
 				F4908BE927868FE500F06E94 /* AppDelegate.swift in Sources */,
+				F4908BFD278A2AE600F06E94 /* FilmsViewController.swift in Sources */,
 				F4908BEB27868FE500F06E94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

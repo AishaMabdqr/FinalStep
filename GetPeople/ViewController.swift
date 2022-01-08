@@ -42,8 +42,7 @@ class ViewController: UIViewController {
                             print(error)
                         }
                })
-               // execute the task and wait for the response before
-               // running the completion handler. This is async!
+           
                task.resume()
         
     }
@@ -57,11 +56,8 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Create a generic cell
-               let cell = UITableViewCell()
-               // set the default cell label to the corresponding element in the people array
+               let cell = UITableViewCell()               
                cell.textLabel?.text = people?[indexPath.row] ?? ""
-               // return the cell so that it can be rendered
                return cell
     }
     

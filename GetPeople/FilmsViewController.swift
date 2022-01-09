@@ -18,11 +18,9 @@ class FilmsViewController: UIViewController {
         
         tableView.dataSource = self
         
-        let url = URL(string: "https://swapi.dev/api/films/?format=json")
-        let session = URLSession.shared
-        let task = session.dataTask(with: url!, completionHandler: {
-                   // see: Swift closure expression syntax
-                   data, response, error in
+        dataModal.getAllFilms(completionHandler: {
+            data, response, error in
+        
             do {
                             if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
                               
@@ -43,7 +41,6 @@ class FilmsViewController: UIViewController {
                         }
                })
            
-               task.resume()
         
     }
 

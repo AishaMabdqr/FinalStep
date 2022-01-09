@@ -18,11 +18,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         
-        let url = URL(string: "https://swapi.dev/api/people/?format=json")
-        let session = URLSession.shared
-        let task = session.dataTask(with: url!, completionHandler: {
-                   // see: Swift closure expression syntax
-                   data, response, error in
+        dataModal.getAllPeople(completionHandler: {
+            
+        data, response, error in
             do {
                             if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
                               
@@ -42,8 +40,6 @@ class ViewController: UIViewController {
                             print(error)
                         }
                })
-           
-               task.resume()
         
     }
 
@@ -56,7 +52,7 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-               let cell = UITableViewCell()               
+               let cell = UITableViewCell()
                cell.textLabel?.text = people?[indexPath.row] ?? ""
                return cell
     }

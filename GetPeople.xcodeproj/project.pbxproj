@@ -15,6 +15,8 @@
 		F4908BF527868FE800F06E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4908BF327868FE800F06E94 /* LaunchScreen.storyboard */; };
 		F4908BFD278A2AE600F06E94 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */; };
 		F4908BFF278A5AB200F06E94 /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908BFE278A5AB200F06E94 /* DataModal.swift */; };
+		F4908C01278A658900F06E94 /* PeopleDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908C00278A658900F06E94 /* PeopleDetailsController.swift */; };
+		F4908C03278A65A800F06E94 /* FilmsDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908C02278A65A800F06E94 /* FilmsDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F4908BF627868FE900F06E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		F4908BFE278A5AB200F06E94 /* DataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
+		F4908C00278A658900F06E94 /* PeopleDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsController.swift; sourceTree = "<group>"; };
+		F4908C02278A65A800F06E94 /* FilmsDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				F4908BEC27868FE500F06E94 /* ViewController.swift */,
 				F4908BFC278A2AE500F06E94 /* FilmsViewController.swift */,
 				F4908BFE278A5AB200F06E94 /* DataModal.swift */,
+				F4908C00278A658900F06E94 /* PeopleDetailsController.swift */,
+				F4908C02278A65A800F06E94 /* FilmsDetailsController.swift */,
 				F4908BEE27868FE500F06E94 /* Main.storyboard */,
 				F4908BF127868FE800F06E94 /* Assets.xcassets */,
 				F4908BF327868FE800F06E94 /* LaunchScreen.storyboard */,
@@ -149,6 +155,8 @@
 				F4908BFD278A2AE600F06E94 /* FilmsViewController.swift in Sources */,
 				F4908BFF278A5AB200F06E94 /* DataModal.swift in Sources */,
 				F4908BEB27868FE500F06E94 /* SceneDelegate.swift in Sources */,
+				F4908C03278A65A800F06E94 /* FilmsDetailsController.swift in Sources */,
+				F4908C01278A658900F06E94 /* PeopleDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
